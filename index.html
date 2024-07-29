@@ -34,15 +34,9 @@
             <div class="icons">
               <div class="icon-btn menu-btn">
                   <i class="fa fa-bars" aria-hidden="true"></i>
-                </a>
               </div>
-             <!-- <div class="icon-btn like-btn">
-                <a href="">
-                  <i class="fa fa-heart" aria-hidden="true"></i>
-                </a>
-              </div>-->
               <div class="icon-btn cart-btn">
-                <a href="javascript:void(0);" id="cart-toggle">
+                <a href="shopping.html" id="cart-toggle">
                   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                   <span id="cart-count">0</span>
                 </a>
@@ -59,7 +53,6 @@
           <img class="main-img" src="./images/tnjarbouquet.png" alt="">
         </div>
         <div class="main-text">
-          <!--<h2 class="caption">Author Bouquets</h2>-->
           <h3 class="sub-caption">From Blossom flowers</h3>
           <div class="order-btn">
             <a href="catalogue.html">ORDER INQUIRY</a>
@@ -71,7 +64,7 @@
       </div>
     </div>
 
-    <!--  best offers  section-->
+    <!-- best offers section -->
 
     <div class="frame">
       <section class="best-offers">
@@ -91,8 +84,7 @@
           <div class="left-offer offer">
             <div class="left-offer-info">
               <span class="name-price">Turkish Rose</span>
-              <span>kshs <a href=""><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a> 
-              </span>
+              <span>kshs <a href="javascript:void(0);" onclick="addToCart('Turkish Rose')"><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a></span>
               <div class="discount"></div>
             </div>
             <div class="left-offer-img-frame">
@@ -104,7 +96,7 @@
               <div class="right-offer-info">
                 <div>
                   <span class="name-price">Damask Rose</span>
-                  <span>kshs </span> <a href=""><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a></span>
+                  <span>kshs <a href="javascript:void(0);" onclick="addToCart('Damask Rose')"><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a></span>
                 </div>
               </div>
               <div class="right-offer-img-frame">
@@ -115,7 +107,7 @@
               <div class="right-offer-info">
                 <div>
                   <span class="name-price">Assorted Colors</span>
-                  <span>kshs <a href=""><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a></span>
+                  <span>kshs <a href="javascript:void(0);" onclick="addToCart('Assorted Colors')"><i class="fa fa-shopping-cart purple-cart" aria-hidden="true"></i></a></span>
                 </div>
               </div>
               <div class="right-offer-img-frame">
@@ -162,7 +154,7 @@
       </div>
     </aside>
 
-  <!-- product sample section -->
+    <!-- product sample section -->
 
     <section class="product-samples-section">
       <div class="product-samples-header">
@@ -177,14 +169,7 @@
             </a>
           </div>
           <span>Turkish Rose</span>
-         <!--
-           <form class="quantity">
-            <input type="radio" id="q1" name="quantity1" checked><label for="q1">9 unt.</label>
-            <input type="radio" id="q2" name="quantity1"><label for="q2">15 unt.</label>
-            <input type="radio" id="q3" name="quantity1"><label for="q3">21 unt.</label>
-          </form>
-          -->
-          <span class="price-span">kshs <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+          <span class="price-span">kshs <a href="javascript:void(0);" onclick="addToCart('Turkish Rose')"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
         </div>
         <div class="product2 product">
           <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -194,14 +179,7 @@
             </a>
           </div>
           <span>Rose Flower</span>
-          <!--
-          <form class="quantity">
-            <input type="radio" id="q4" name="quantity2" checked><label for="q4">9 unt.</label>
-            <input type="radio" id="q5" name="quantity2"><label for="q5">15 unt.</label>
-            <input type="radio" id="q6" name="quantity2"><label for="q6">21 unt.</label>
-          </form>
-          -->
-          <span class="price-span">kshs <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+          <span class="price-span">kshs <a href="javascript:void(0);" onclick="addToCart('Rose Flower')"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
         </div>
         <div class="product3 product">
           <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -211,14 +189,7 @@
             </a>
           </div>
           <span>Assorted Colors</span>
-          <!--
-          <form class="quantity">
-            <input type="radio" id="q7" name="quantity" checked><label for="q7">9 unt.</label>
-            <input type="radio" id="q8" name="quantity"><label for="q8">15 unt.</label>
-            <input type="radio" id="q9" name="quantity"><label for="q9">21 unt.</label>
-          </form>
-          -->
-          <span class="price-span">kshs <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+          <span class="price-span">kshs <a href="javascript:void(0);" onclick="addToCart('Assorted Colors')"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
         </div>
         <div class="product4 product">
           <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -228,149 +199,60 @@
             </a>
           </div>
           <span>Turkish Rose</span>
-          <!--
-          <form class="quantity">
-            <input type="radio" id="q10" name="quantity" checked><label for="q10">9 unt.</label>
-            <input type="radio" id="q11" name="quantity"><label for="q11">15 unt.</label>
-            <input type="radio" id="q12" name="quantity"><label for="q12">21 unt.</label>
-          </form>
-          -->
-          <span class="price-span">kshs <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+          <span class="price-span">kshs <a href="javascript:void(0);" onclick="addToCart('Turkish Rose')"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
         </div>
         <div class="product5 product">
           <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
           <div class="img-frame">
             <a href="product.html">
-              <img src="./images/rfjar.png" alt="Rose Flower">
+              <img src="./images/trjar.png" alt="Turkish Rose">
             </a>
           </div>
-          <span>Rose Flower</span>
-          <!--
-          <form class="quantity">
-            <input type="radio" id="q13" name="quantity" checked><label for="q13">9 unt.</label>
-            <input type="radio" id="q14" name="quantity"><label for="q14">15 unt.</label>
-            <input type="radio" id="q15" name="quantity"><label for="q15">21 unt.</label>
-          </form>
-          -->
-          <span class="price-span">kshs <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+          <span>Turkish Rose</span>
+          <span class="price-span">kshs <a href="javascript:void(0);" onclick="addToCart('Turkish Rose')"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
         </div>
         <div class="product6 product">
           <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
           <div class="img-frame">
             <a href="product.html">
-              <img src="./images/acjar.png" alt="Assorted Colors">
+              <img src="./images/trjar.png" alt="Turkish Rose">
             </a>
           </div>
-          <span>Assorted Colors</span>
-          <!--
-          <form class="quantity">
-            <input type="radio" id="q16" name="quantity" checked><label for="q16">9 unt.</label>
-            <input type="radio" id="q17" name="quantity"><label for="q17">15 unt.</label>
-            <input type="radio" id="q18" name="quantity"><label for="q18">21 unt.</label>
-          </form>
-          -->
-          <span class="price-span">kshs <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+          <span>Turkish Rose</span>
+          <span class="price-span">kshs <a href="javascript:void(0);" onclick="addToCart('Turkish Rose')"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
         </div>
-      </div>
-      <div class="link-container">
-    <a href="catalogue.html">Show more</a>
+        <div class="product7 product">
+          <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+          <div class="img-frame">
+            <a href="product.html">
+              <img src="./images/trjar.png" alt="Turkish Rose">
+            </a>
+          </div>
+          <span>Turkish Rose</span>
+          <span class="price-span">kshs <a href="javascript:void(0);" onclick="addToCart('Turkish Rose')"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></span>
+        </div>
       </div>
     </section>
-
-  <!-- testimonials section  -->
-
-    <section class="testimonials">
-      <div class="testimonials-bar">
-        <h3 class="title">Testimonials</h3>
-        <div class="gallery-arrows">
-          <a href="">
-            <i class="fa fa-angle-left" aria-hidden="true"></i>
-          </a>
-          &nbsp;
-          <a href="">
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-      <div class="testimonials-box">
-        <div class="customer1 customer">
-          <div class="customer-info inner-box">
-            <div class="photo-container">
-              <img src="./images/customer1.png" alt="customer-photo">
-            </div>
-            <span>Susana</span> 
-            <span class="customer-description">Lorem ipsum dolor sit</span>
-            <i class="fa fa-vk" aria-hidden="true"></i>
-            &nbsp;
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </div> 
-          <div class="testimonial-text inner-box">
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim facere neque pariatur tempora quibusdam, quae porro qui dolore earum dolor. Ab neque magnam quibusdam nobis odio perspiciatis expedita culpa."
-          </div>
-        </div>
-        <div class="customer2 customer">
-          <div class="customer-info inner-box">
-            <div class="photo-container">
-              <img src="./images/customer2.png" alt="customer-photo">
-            </div>
-            <span>Janneth</span> 
-            <span class="customer-description">Lorem ipsum dolor sit</span>
-            <i class="fa fa-vk" aria-hidden="true"></i>
-            &nbsp;
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </div> 
-          <div class="testimonial-text inner-box">
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim facere neque pariatur tempora quibusdam, quae porro qui dolore earum dolor. Ab neque magnam quibusdam nobis odio perspiciatis expedita culpa."
-          </div>
-        </div>
-      </div>
-      <div class="pagination">
-          <div class="ball1 ball"></div>
-          <div class="ball2 ball"></div>
-          <div class="ball3 ball"></div>
-          <div class="ball4 ball"></div>
-          <div class="ball5 ball"></div>
-        </div>
-    </section>
-
-  <!-- footer section -->
-
-    <footer>
-      <!--<img class="map" src="./images/map.png" alt="Where we are">-->
-      <nav class="footer-bar">
-        <div class="subscribe-btn">
-            <span>Subscribe to our newsletter</span>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-        <div class="address footer-block">
-          <!--<span>Some street, 12</span>-->
-          <!-- <span class="divider">|</span> -->
-          <span>+254 (707096175)</span>
-          <!-- <span class="divider">|</span> -->
-          <span>Blossomflowersonline@gmail.com</span>
-        </div>
-        <div class="other-links footer-block">
-          <!--<a href="">Shipping return</a>-->
-          <a href="">Info about us</a>
-          <!--<a href="">Discounts</a>-->
-        </div>
-        <div class="copyright footer-block">
-          <span>2024 Copyright information for this work</span>
-          <!--<div class="card-logos">
-            <div class="card-logo">
-              <img src="./images/mastercard.png" alt="Mastercard">
-            </div>
-            <div class="card-logo card-logo2">
-              <img src="./images/visa.png" alt="Visa">
-            </div>
-            <div class="card-logo card-logo3">
-              <img src="./images/paypal.png" alt="Paypal">
-            </div>-->
-          </div>
-        </div>
-      </nav>
-    </footer>
   </main>
-   <script src="./scripts/index.js"></script>
+
+  <!-- Scripts -->
+  <script>
+    // Function to add items to the cart
+    function addToCart(item) {
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      cart.push(item);
+      localStorage.setItem('cart', JSON.stringify(cart));
+      updateCartCount();
+    }
+
+    // Function to update cart count in the header
+    function updateCartCount() {
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      document.getElementById('cart-count').textContent = cart.length;
+    }
+
+    // Initialize cart count on page load
+    document.addEventListener('DOMContentLoaded', updateCartCount);
+  </script>
 </body>
 </html>

@@ -77,6 +77,10 @@ header {
   margin: 0 10px;
 }
 
+.menu.show{
+  display:block;
+}
+
 .icon-btn {
   display: inline-block;
   font-size: 12px;
@@ -92,7 +96,7 @@ header {
 
 .like-btn,
 .menu-btn {
-  background-color: #8ed456;
+  background-color: #78c232;
 }
 
 .cart-btn {
@@ -474,10 +478,10 @@ header {
 
 /* rules for the footer */
 
-.map {
+/*.map {
   width: 100%;
   height: auto;
-}
+}*/
 
 .footer-bar {
   display: flex;
